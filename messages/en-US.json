@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "language": "English",
+	"greetings": {
+		"good-morning": "Good Morning!",
+		"good-afternoon": "Good Afternoon!",
+		"good-evening": "Good Evening!",
+		"good-night": "Good Night!",
+		"hello": "Hello!"
+	},
+	"app": {
+		"bookmarks": "Bookmarks",
+		"apps": "Apps"
+	},
+    "settings": {
+        "settings": "Settings",
+        "about": "About",
+        "language": "Language",
+        "theme": "Theme",
+		"search-prefixes": "Search Prefixes",
+		"prefix": "Prefix",
+		"service": "Service",
+		"go-to-app": "Go to app"
+    },
+	"searchbar": {
+		"start-typing": "Start typing..."
+	},
+	"categories": {
+		"server": "Server",
+		"life": "Life",
+		"applications": "Applications",
+		"social media": "Social Media",
+		"reading": "Reading",
+		"music": "Music",
+		"video": "Video",
+		"media": "Media",
+        "entertainment": "Entertainment",
+        "education": "Education",
+        "other": "Other",
+		"business": "Business",
+		"health": "Health",
+		"shopping": "Shopping",
+		"hobbies": "Hobbies",
+		"news": "News",
+		"weather": "Weather",
+		"travel": "Travel",
+		"food": "Food",
+		"fitness": "Fitness",
+		"finance": "Finance",
+		"programming": "Programming",
+		"design": "Design",
+		"photography": "Photography",
+		"art": "Art",
+		"writing": "Writing",
+		"community": "Community",
+		"support": "Support",
+		"forum": "Forum",
+		"chat": "Chat",
+		"social": "Social",
+		"blog": "Blog",
+		"magazines": "Magazines",
+		"podcasts": "Podcasts",
+		"youtube": "YouTube",
+		"tv": "TV",
+		"movies": "Movies",
+		"jobs": "Jobs",
+		"career": "Career",
+		"research": "Research",
+		"science": "Science",
+		"technology": "Technology",
+		"law": "Law",
+		"healthcare": "Healthcare",
+		"real estate": "Real Estate",
+		"transportation": "Transportation"
+
+	}
+}

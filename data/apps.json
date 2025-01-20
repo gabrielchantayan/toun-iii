@@ -1,0 +1,134 @@
+[
+	{
+		"name": "applications",
+		"order": 0,
+		"apps": [
+			{
+				"order": 0,
+				"name": "Paperless-NG",
+				"url": "http://paperless-ng.local",
+				"icon": "mdi:file-document-multiple-outline"
+			},
+			{ "order": 1, "name": "Weblate", "url": "http://weblate.local", "icon": "mdi:translate" },
+			{ "order": 2, "name": "slskd", "url": "http://slskd.local", "icon": "tabler:music-down" },
+			{
+				"order": 3,
+				"name": "Actual",
+				"url": "https://actual.local",
+				"icon": "simple-icons:actualbudget"
+			}
+		]
+	},
+	{
+		"name": "Media",
+		"order": 1,
+		"apps": [
+			{
+				"order": 4,
+				"name": "Radarr",
+				"icon": "mdi:movie-search",
+				"url": "http://radarr.local"
+			},
+			{
+				"order": 5,
+				"name": "Sonarr",
+				"icon": "mdi:tv",
+				"url": "http://sonarr.local"
+			},
+			{
+				"order": 6,
+				"name": "Prowlarr",
+				"icon": "ic:baseline-list",
+				"url": "http://prowlarr.local"
+			},
+			{
+				"order": 0,
+				"name": "Plex",
+				"icon": "mdi:plex",
+				"url": "http://plex.local"
+			},
+			{
+				"order": 1,
+				"name": "Immich",
+				"icon": "mdi:camera",
+				"url": "http://immich.local"
+			},
+
+			{
+				"order": 2,
+				"name": "Photoprism",
+				"icon": "mdi:camera",
+				"url": "http://photoprism.local"
+			},
+			{
+				"order": 3,
+				"name": "Photoprism (Film)",
+				"icon": "mdi:film",
+				"url": "http://photoprism.local"
+			},
+
+			{
+				"order": 7,
+				"name": "Bazarr",
+				"url": "http://bazarr.local",
+				"icon": "mdi:subtitles-outline"
+			},
+
+			{
+				"order": 8,
+				"name": "qBittorrent",
+				"url": "https://qbittorrent.local",
+				"icon": "simple-icons:qbittorrent"
+			}
+		]
+	},
+    {
+		"name": "server",
+		"order": 2,
+		"apps": [
+			{
+				"order": 0,
+				"name": "Proxmox",
+				"url": "https://proxmox.local",
+				"icon": "simple-icons:proxmox"
+			},
+			{
+				"order": 1,
+				"name": "Grafana",
+				"url": "http://grafana.local",
+				"icon": "mdi:chart-bar-stacked"
+			},
+			{
+				"order": 2,
+				"name": "Portainer",
+				"url": "https://portainer.local",
+				"icon": "simple-icons:portainer"
+			},
+			{
+				"order": 4,
+				"name": "Wiki.JS",
+				"icon": "mdi:wikipedia",
+				"url": "http://wikijs.local"
+			},
+			{
+				"order": 3,
+				"name": "PiHole",
+				"url": "http://pihole.local/admin",
+				"icon": "simple-icons:pihole"
+			},
+			{
+				"order": 5,
+				"name": "Tautulli",
+				"url": "http://tautulli.local",
+				"icon": "mdi:chart-bar-stacked"
+			},
+			{
+				"order": 6,
+				"name": "NetAlertX",
+				"url": "http://netalertx.local",
+				"icon": "clarity:network-globe-outline-alerted"
+			}
+		]
+	}
+]
+

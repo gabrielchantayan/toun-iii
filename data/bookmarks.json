@@ -1,0 +1,65 @@
+[
+    {
+        "name" : "Social Media",
+        "order": 0,
+        "items" : [
+            {
+                "name" : "Twitter",
+                "url" : "https://twitter.com/",
+                "order" : 0
+            },
+            {
+                "name" : "Instagram",
+                "url" : "https://www.instagram.com/",
+                "order" : 1
+            },
+            {
+                "name" : "Facebook",
+                "url" : "https://www.facebook.com/",
+                "order" : 2
+            }
+        ]
+    },
+    {
+        "name" : "Music",
+        "order": 1,
+        "items" : [
+            {
+                "name" : "Spotify",
+                "url" : "https://open.spotify.com/",
+                "order" : 0
+            },
+            {
+                "name" : "Apple Music",
+                "url" : "https://music.apple.com/",
+                "order" : 1
+            },
+            {
+                "name" : "Tidal",
+                "url" : "https://tidal.com/",
+                "order" : 2
+            }
+        ]
+    },
+    {
+        "name" : "Video",
+        "order": 2,
+        "items" : [
+            {
+                "name" : "YouTube",
+                "url" : "https://www.youtube.com/",
+                "order" : 0
+            },
+            {
+                "name" : "Netflix",
+                "url" : "https://www.netflix.com/",
+                "order" : 1
+            },
+            {
+                "name" : "Vimeo",
+                "url" : "https://vimeo.com/",
+                "order" : 2
+            }
+        ]
+    }
+]

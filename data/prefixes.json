@@ -1,0 +1,38 @@
+{
+    ".d": {
+        "name": "DuckDuckGo",
+        "query": "https://duckduckgo.com/?q="
+    },
+    ".s": {
+        "name": "Spotify",
+        "query": "https://open.spotify.com/search/"
+    },
+    ".t": {
+        "name": "Twitter",
+        "query": "https://twitter.com/search?q="
+    },
+    ".g": {
+        "name": "Google",
+        "query": "https://www.google.com/search?q="
+    },
+    ".y": {
+        "name": "YouTube",
+        "query": "https://www.youtube.com/results?search_query="
+    },
+    ".w": {
+        "name": "Wikipedia",
+        "query": "https://en.wikipedia.org/wiki/"
+    },
+    ".i": {
+        "name": "Instagram",
+        "query": "https://www.instagram.com/"
+    },
+    ".f": {
+        "name": "Facebook",
+        "query": "https://www.facebook.com/"
+    },
+    ".n": {
+        "name": "Netflix",
+        "query": "https://www.netflix.com/search?q="
+    }
+}
