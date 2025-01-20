@@ -1,4 +1,7 @@
 'use client';
+
+import { apply_theme_by_properties } from "@/lib/theme-manager";
+
 /**
  * A button component used to preview a theme.
  * @param {{primary: string, accent: string, background: string, name: string}} props
@@ -12,7 +15,7 @@ const ThemeButton = ({
 	primary,
 	accent,
 	background,
-	name,
+	name
 }: {
 	primary: string;
 	accent: string;
@@ -20,9 +23,11 @@ const ThemeButton = ({
 	name: string;
 }) => {
 	const set_theme = () => {
-		document.documentElement.style.setProperty('--color-primary', primary);
-		document.documentElement.style.setProperty('--color-accent', accent);
-		document.documentElement.style.setProperty('--color-background', background);
+        apply_theme_by_properties({
+            primary: primary,
+            accent: accent,
+            background: background
+        })
 	};
 
 	return (

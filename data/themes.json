@@ -40,9 +40,9 @@
 		"cab": {
 			"name": "Cab",
 			"colors": {
-				"background": "#F6E335",
+				"background": "#ffe00e",
 				"primary": "#1F1F1F",
-				"accent": "#424242"
+				"accent": "#737031"
 			},
 			"isCustom": false
 		},

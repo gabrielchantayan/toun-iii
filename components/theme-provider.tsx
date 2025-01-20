@@ -1,12 +1,12 @@
 'use client'
 
-import { applyTheme } from "@/lib/theme-manager";
+import { initialize_theme } from "@/lib/theme-manager";
 import { useLayoutEffect } from "react";
 
 const ThemeProvider = () => {
 
     useLayoutEffect(() => {
-		applyTheme();
+		initialize_theme();
 	}, []);
 
     return null
