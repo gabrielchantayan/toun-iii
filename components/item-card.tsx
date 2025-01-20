@@ -1,6 +1,14 @@
 import { Icon } from '@iconify/react';
 import { clean_url } from '@/lib/utils';
 
+/**
+ * A clickable card with an icon and a label, used to display bookmarks.
+ * @param {{ icon: string, item: string, url: string }} props
+ * @prop {string} icon - The icon to be displayed.
+ * @prop {string} item - The label to be displayed.
+ * @prop {string} url - The URL the card should link to.
+ * @returns A React component.
+ */
 const ItemCard = ({ icon, item, url } : { icon: string, item: string, url: string }) => {
 	return (
 		<a

@@ -8,25 +8,21 @@ import ThemeButton from './theme-button';
  * The ThemeButton components are then returned as a collection.
  */
 const ThemeFactory = () => {
+	const built_buttons = [];
 
-    const built_buttons = [];
+	for (const [key, theme] of Object.entries(themes['themes'])) {
+		built_buttons.push(
+			<ThemeButton
+				key={key}
+				primary={theme['colors']['primary']}
+				accent={theme['colors']['accent']}
+				background={theme['colors']['background']}
+				name={theme['name']}
+			/>
+		);
+	}
 
-    for (const [key, theme] of Object.entries(themes['themes'])) {
-        built_buttons.push(<ThemeButton key={key} primary={theme['colors']['primary']} accent={theme['colors']['accent']} background={theme['colors']['background']} name={theme['name']} />);
-    }
+	return <div className='flex flex-row flex-wrap gap-2'>{built_buttons}</div>;
+};
 
-
-    return (
-        
-        <div className="flex flex-row flex-wrap gap-2">
-
-            {
-                built_buttons
-            }
-
-        </div>
-    )
-
-}
-
-export default ThemeFactory
+export default ThemeFactory;

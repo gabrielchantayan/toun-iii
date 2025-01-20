@@ -1,24 +1,37 @@
 import prefixes from '@/data/prefixes.json';
 import { useTranslations } from 'next-intl';
 
+/**
+ * A table component that displays a list of prefixes and their associated services.
+ */
 export default function PrefixTable() {
-    const t = useTranslations('settings');
+	const t = useTranslations('settings');
 
-    const prefixes_built = [];
+	/**
+	 * Builds a list of JSX elements representing the prefixes and services.
+	 */
+	const prefixes_built = [];
 
-    for (const [key, prefix] of Object.entries(prefixes)) {
-        prefixes_built.push(
+	/**
+	 * Iterate over the prefixes object and extract the key-value pairs.
+	 * For each key-value pair, create a new JSX element representing a table row.
+	 * The table row contains two table cells, one for the prefix and one for the service.
+	 */
+	for (const [key, prefix] of Object.entries(prefixes)) {
+		prefixes_built.push(
 			<tr style={{ border: '1px solid var(--color-accent)' }}>
-				<td className='px-2' style={{ border: '1px solid var(--color-accent)' }}>{key}</td>
+				<td className='px-2' style={{ border: '1px solid var(--color-accent)' }}>
+					{key}
+				</td>
 				<td className='px-2'>{prefix.name}</td>
 			</tr>
 		);
-    }
+	}
 
-    return (
-		<table className='px-4' style={{border: '1px solid var(--color-accent)'}}>
+	return (
+		<table className='px-4' style={{ border: '1px solid var(--color-accent)' }}>
 			<thead style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-background)' }}>
-				<tr >
+				<tr>
 					<th className='px-2'>{t('prefix')}</th>
 					<th className='px-2'>{t('service')}</th>
 				</tr>

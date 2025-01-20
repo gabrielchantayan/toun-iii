@@ -1,24 +1,44 @@
-'use client'
+'use client';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 const Greet = () => {
+	/**
+	 * Get current date, format it in locale date with long day of week and month
+	 */
+	const t = useTranslations('greetings');
 
-    // Get current date, format it in locale date with long day of week and month
-      const t = useTranslations('greetings');
+	/**
+	 * Get current locale
+	 */
+	const locale = useLocale();
 
-      const locale = useLocale();
+	/**
+	 * Create a date object with the current date and time
+	 */
+	const date = new Date();
 
-
-
-    const date = new Date();
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+	/**
+	 * Options for the Intl.DateTimeFormat constructor
+	 * - weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+	 *   This will format the date as: "Wednesday, 15 June 2022"
+	 */
+	const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+	/**
+	 * Format the date according to the locale and options
+	 */
 	const today = date.toLocaleDateString(locale, options);
 
-    // Get current time in hours
-    const hours = Math.floor(new Date().getHours() / 3);
+	/**
+	 * Get current time in hours
+	 */
+	const hours = Math.floor(new Date().getHours() / 3);
 
-    const greeting = () => {
-        switch (hours) {
+	/**
+	 * Function to get the greeting based on the time of day
+	 * @returns the key of the greeting to be used
+	 */
+	const greeting = () => {
+		switch (hours) {
 			case 7:
 			case 8:
 			case 0:
@@ -35,15 +55,18 @@ const Greet = () => {
 			default:
 				return 'hello';
 		}
-    }
+	};
 
-    
-    return (
-        <div className="flex flex-col gap-2 ">
-            <p className="text-sm capitalize">{today}</p>
-            <h1 className="text-4xl font-bold capitalize">{t(greeting())}</h1>
-        </div>
-    )
-}
+	/**
+	 * Render the greeting component
+	 * @returns The JSX element
+	 */
+	return (
+		<div className='flex flex-col gap-2'>
+			<p className='text-sm capitalize'>{today}</p>
+			<h1 className='text-4xl font-bold capitalize'>{t(greeting())}</h1>
+		</div>
+	);
+};
 
-export default Greet
+export default Greet;

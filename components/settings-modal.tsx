@@ -10,6 +10,13 @@ import { useTranslations } from 'next-intl';
 import ThemeFactory from './settings-modal/theme-factory';
 import PrefixTable from './settings-modal/prefix-table';
 
+/**
+ * SettingsModal is a component that provides a user interface for application settings.
+ * It includes a dialog with options to change the theme, manage search prefixes, and select the language.
+ * The dialog is triggered by a cog icon, which rotates on hover.
+ * It uses internationalization to display translated text for different languages.
+ */
+
 const SettingsModal = () => {
 
     const t = useTranslations('settings');
