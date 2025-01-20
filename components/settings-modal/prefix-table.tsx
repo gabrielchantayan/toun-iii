@@ -19,8 +19,8 @@ export default function PrefixTable() {
 	 */
 	for (const [key, prefix] of Object.entries(prefixes)) {
 		prefixes_built.push(
-			<tr style={{ border: '1px solid var(--color-accent)' }}>
-				<td className='px-2' style={{ border: '1px solid var(--color-accent)' }}>
+			<tr key={key} style={{ border: '1px solid var(--color-primary)' }}>
+				<td className='px-2'>
 					{key}
 				</td>
 				<td className='px-2'>{prefix.name}</td>
@@ -29,7 +29,7 @@ export default function PrefixTable() {
 	}
 
 	return (
-		<table className='px-4' style={{ border: '1px solid var(--color-accent)' }}>
+		<table className='px-4 rounded-md' style={{ border: '1px solid var(--color-primary)' }}>
 			<thead style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-background)' }}>
 				<tr>
 					<th className='px-2'>{t('prefix')}</th>

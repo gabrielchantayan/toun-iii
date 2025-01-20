@@ -9,6 +9,7 @@ import { Icon } from '@iconify/react/dist/iconify.js';
 import { useTranslations } from 'next-intl';
 import ThemeFactory from './settings-modal/theme-factory';
 import PrefixTable from './settings-modal/prefix-table';
+import LocaleSwitcher from './settings-modal/locale-switcher';
 
 /**
  * SettingsModal is a component that provides a user interface for application settings.
@@ -42,6 +43,7 @@ const SettingsModal = () => {
 							</div>
 							<div className='flex flex-col sm:w-1/2 pl-2'>
 								<p>{t('language')}</p>
+								<LocaleSwitcher />
 							</div>
 						</div>
 					</div>

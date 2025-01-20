@@ -1,12 +1,13 @@
 import { getRequestConfig } from 'next-intl/server';
 import { IntlErrorCode } from 'next-intl';
+import { cookies } from 'next/headers';
 
 export default getRequestConfig(async () => {
 	// Provide a static locale, fetch a user setting,
 	// read from `cookies()`, `headers()`, etc.
-	const locale = 'fr-FR';
 
-
+  const locale = cookies().get('NEXT_LOCALE')?.value || 'en';
+  
 	return { 
        onError(error) {
       if (error.code === IntlErrorCode.MISSING_MESSAGE) {
