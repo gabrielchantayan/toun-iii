@@ -13,7 +13,7 @@ const ItemCard = ({ icon, item, url } : { icon: string, item: string, url: strin
 	return (
 		<a
 			href={url}
-			className='overflow-hidden block flex flex-row items-center justify-start p-2 gap-3 uppercase w-full sm:w-52 h-18 hover:scale-[1.03] active:scale-[0.98] transition-all duration-150 ease-in-out'>
+			className='overflow-hidden block flex flex-row items-center justify-start p-2 gap-3 uppercase w-full sm:w-52 h-18 hover:scale-[1.05] active:scale-[0.98] transition-all duration-150 ease-in-out'>
 			<div>
 				<Icon icon={icon} width={32} height={32} />
 			</div>
