@@ -1,7 +1,6 @@
 import {
 	Dialog,
 	DialogContent,
-	DialogFooter,
 	DialogHeader,
 	DialogTitle,
 	DialogTrigger,
@@ -21,6 +20,8 @@ import SettingsModalFooter from './settings-modal/footer';
  */
 
 const SettingsModal = () => {
+ 
+	
 
     const t = useTranslations('settings');
 
@@ -30,7 +31,7 @@ const SettingsModal = () => {
 				<Icon icon='mdi:cog' width={32} height={32} />
 				<p className='block sm:hidden'>{t('settings')}</p>
 			</DialogTrigger>
-			<DialogContent className='sm:w-1/2 w-5/6 flex flex-col gap-4'>
+			<DialogContent className='sm:w-3/5 w-5/6 flex flex-col gap-4'>
 				<DialogHeader>
 					<DialogTitle>{t('settings')}</DialogTitle>
 				</DialogHeader>
