@@ -73,5 +73,12 @@
 		"healthcare": "Առողջապահություն",
 		"real estate": "Անշարժ գույք",
 		"transportation": "Տրանսպորտ"
+	},
+
+	"credits": {
+		"made-by": "Պատրաստված է <l>Գաբրիել Չանտայանի</l>"
+	},
+	"misc": {
+		"app-name": "Տուն"
 	}
 }

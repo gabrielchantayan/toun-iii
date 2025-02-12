@@ -73,5 +73,11 @@
 		"healthcare": "Здравоохранение",
 		"real estate": "Недвижимость",
 		"transportation": "Транспорт"
+	},
+	"credits": {
+		"made-by": "Сделано <l>Габриэл Чантаяном</l>"
+	},
+	"misc": {
+		"app-name": "Тун"
 	}
 }

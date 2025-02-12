@@ -72,6 +72,11 @@
 		"healthcare": "Healthcare",
 		"real estate": "Real Estate",
 		"transportation": "Transportation"
-
+	},
+	"credits" : {
+		"made-by": "Made by <l>Gabe Chantayan</l>"
+	},
+	"misc": {
+		"app-name": "Toun"
 	}
 }

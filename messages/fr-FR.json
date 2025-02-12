@@ -73,5 +73,11 @@
 		"healthcare": "Soins de santé",
 		"real estate": "Immobilier",
 		"transportation": "Transport"
+	},
+	"credits": {
+		"made-by": "Créé par <l>Gabriel Chantayan</l>"
+	},
+	"misc": {
+		"app-name": "Toun"
 	}
 }

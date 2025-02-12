@@ -72,5 +72,11 @@
 		"healthcare": "بهداشت",
 		"real estate": "املاک و مستغلات",
 		"transportation": "حمل‌ونقل"
+	},
+	"credits": {
+		"made-by": "</l>ساخته <l>گابریل چانتایان"
+	},
+	"misc": {
+		"app-name": "تون"
 	}
 }
