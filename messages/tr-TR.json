@@ -73,5 +73,11 @@
 		"healthcare": "Sağlık Hizmetleri",
 		"real estate": "Gayrimenkul",
 		"transportation": "Ulaşım"
+	},
+	"credits": {
+		"made-by": "<l>Gabriel Chantayan</l> tarafından yapılmıştır"
+	},
+	"misc": {
+		"app-name": "Tun"
 	}
 }
