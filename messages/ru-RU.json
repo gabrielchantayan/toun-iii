@@ -74,6 +74,32 @@
 		"real estate": "Недвижимость",
 		"transportation": "Транспорт"
 	},
+	"themes": {
+		"blackboard": "Черная доска",
+		"gazette": "Газета",
+		"latte": "Латте",
+		"armCoffee": "Армянский кофе",
+		"cab": "Такси",
+		"cloud": "Облако",
+		"lime": "Лайм",
+		"white": "Белый",
+		"black": "Черный",
+		"tron": "Трон",
+		"blues": "Блюз",
+		"passion": "Страсть",
+		"chalk": "Мел",
+		"paper": "Бумага",
+		"neon": "Нейон",
+		"pumpkin": "Тыква",
+		"onedark": "Один темный",
+		"mint": "Мята",
+		"vampire": "Вампир",
+		"forest": "Лес",
+		"plum": "Слива",
+		"timberwolf": "Лесной волк",
+		"roseQuartz": "Розовый кварц",
+		"khaki": "Хаки"
+	},
 	"credits": {
 		"made-by": "Сделано <l>Габриэл Чантаяном</l>"
 	},

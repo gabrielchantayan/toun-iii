@@ -1,5 +1,7 @@
 import themes from '../../data/themes.json';
 import ThemeButton from './theme-button';
+import { useTranslations } from 'next-intl';
+
 
 /**
  * ThemeFactory is a function that creates a collection of ThemeButton components.
@@ -10,6 +12,18 @@ import ThemeButton from './theme-button';
 const ThemeFactory = () => {
 	const built_buttons = [];
 
+	const t = useTranslations('themes');
+	console.log(themes);
+
+	// Sort the themes by key
+
+	// @ts-expect-error Sorting an object by key bugs out TS apparently
+	themes['themes'] = Object.fromEntries(
+		Object.entries(themes['themes']).sort((a, b) => t(a[0]).localeCompare(t(b[0])))
+	);
+
+	console.log(themes);
+
 	for (const [key, theme] of Object.entries(themes['themes'])) {
 		built_buttons.push(
 			<ThemeButton
@@ -17,7 +31,7 @@ const ThemeFactory = () => {
 				primary={theme['colors']['primary']}
 				accent={theme['colors']['accent']}
 				background={theme['colors']['background']}
-				name={theme['name']}
+				name={t(key)}
 			/>
 		);
 	}

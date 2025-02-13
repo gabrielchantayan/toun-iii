@@ -1,6 +1,6 @@
 {
-    "version": 1,
-    "language": "English",
+	"version": 1,
+	"language": "English",
 	"greetings": {
 		"good-morning": "Good Morning!",
 		"good-afternoon": "Good Afternoon!",
@@ -12,16 +12,16 @@
 		"bookmarks": "Bookmarks",
 		"apps": "Apps"
 	},
-    "settings": {
-        "settings": "Settings",
-        "about": "About",
-        "language": "Language",
-        "theme": "Theme",
+	"settings": {
+		"settings": "Settings",
+		"about": "About",
+		"language": "Language",
+		"theme": "Theme",
 		"search-prefixes": "Search Prefixes",
 		"prefix": "Prefix",
 		"service": "Service",
 		"go-to-app": "Go to app"
-    },
+	},
 	"searchbar": {
 		"start-typing": "Start typing..."
 	},
@@ -34,9 +34,9 @@
 		"music": "Music",
 		"video": "Video",
 		"media": "Media",
-        "entertainment": "Entertainment",
-        "education": "Education",
-        "other": "Other",
+		"entertainment": "Entertainment",
+		"education": "Education",
+		"other": "Other",
 		"business": "Business",
 		"health": "Health",
 		"shopping": "Shopping",
@@ -73,7 +73,33 @@
 		"real estate": "Real Estate",
 		"transportation": "Transportation"
 	},
-	"credits" : {
+	"themes": {
+		"blackboard": "Blackboard",
+		"gazette": "Gazette",
+		"latte": "Latte",
+		"armCoffee": "Armenian Coffee",
+		"cab": "Cab",
+		"cloud": "Cloud",
+		"lime": "Lime",
+		"white": "White",
+		"black": "Black",
+		"tron": "Tron",
+		"blues": "Blues",
+		"passion": "Passion",
+		"chalk": "Chalk",
+		"paper": "Paper",
+		"neon": "Neon",
+		"pumpkin": "Pumpkin",
+		"onedark": "OneDark",
+		"mint": "Mint",
+		"vampire": "Vampire",
+		"forest": "Forest",
+		"plum": "Plum",
+		"timberwolf": "Timberwolf",
+		"roseQuartz": "Rose Quartz",
+		"khaki": "Khaki"
+	},
+	"credits": {
 		"made-by": "Made by <l>Gabe Chantayan</l>"
 	},
 	"misc": {

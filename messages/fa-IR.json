@@ -73,6 +73,32 @@
 		"real estate": "املاک و مستغلات",
 		"transportation": "حمل‌ونقل"
 	},
+	"themes": {
+		"blackboard": "تخته سیاه",
+		"gazette": "گازت",
+		"latte": "لاته",
+		"armCoffee": "قهوه ارمنی",
+		"cab": "تاکسی",
+		"cloud": "ابر",
+		"lime": "لیمو",
+		"white": "سفید",
+		"black": "سیاه",
+		"tron": "ترن",
+		"blues": "بلوز",
+		"passion": "عشق",
+		"chalk": "گچ",
+		"paper": "کاغذ",
+		"neon": "نئون",
+		"pumpkin": "کدو",
+		"onedark": "تاریک یک",
+		"mint": "نعناع",
+		"vampire": "خون آشام",
+		"forest": "جنگل",
+		"plum": "آلبالو",
+		"timberwolf": "گرگ جنگل",
+		"roseQuartz": "کوارتز گل سرخ",
+		"khaki": "خاکی"
+	},
 	"credits": {
 		"made-by": "</l>ساخته <l>گابریل چانتایان"
 	},

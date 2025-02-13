@@ -1,7 +1,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { IntlErrorCode } from 'next-intl';
 import { cookies } from 'next/headers';
-import { readFileSync } from 'fs';
+// import { readFileSync } from 'fs';
 
 export default getRequestConfig(async () => {
 	// Provide a static locale, fetch a user setting,

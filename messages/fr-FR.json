@@ -74,6 +74,32 @@
 		"real estate": "Immobilier",
 		"transportation": "Transport"
 	},
+	"themes": {
+		"blackboard": "Tableau noir",
+		"gazette": "Gazette",
+		"latte": "Latte",
+		"armCoffee": "Café arménien",
+		"cab": "Taxi",
+		"cloud": "Nuage",
+		"lime": "Citron",
+		"white": "Blanc",
+		"black": "Noir",
+		"tron": "Tron",
+		"blues": "Blues",
+		"passion": "Passion",
+		"chalk": "Craie",
+		"paper": "Papier",
+		"neon": "Néon",
+		"pumpkin": "Citrouille",
+		"onedark": "OneDark",
+		"mint": "Menthe",
+		"vampire": "Vampire",
+		"forest": "Forêt",
+		"plum": "Prune",
+		"timberwolf": "Loup de bois",
+		"roseQuartz": "Quartz rose",
+		"khaki": "Khaki"
+	},
 	"credits": {
 		"made-by": "Créé par <l>Gabriel Chantayan</l>"
 	},

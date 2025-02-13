@@ -74,6 +74,32 @@
 		"real estate": "Gayrimenkul",
 		"transportation": "Ulaşım"
 	},
+	"themes": {
+		"blackboard": "Kara Tahta",
+		"gazette": "Gazete",
+		"latte": "Latte",
+		"armCoffee": "Ermeni Kahvesi",
+		"cab": "Taksi",
+		"cloud": "Bulut",
+		"lime": "Limon",
+		"white": "Beyaz",
+		"black": "Siyah",
+		"tron": "Tron",
+		"blues": "Mavi",
+		"passion": "Tutku",
+		"chalk": "Kireç",
+		"paper": "Kağıt",
+		"neon": "Neon",
+		"pumpkin": "Kabak",
+		"onedark": "OneDark",
+		"mint": "Nane",
+		"vampire": "Vampir",
+		"forest": "Orman",
+		"plum": "Erik",
+		"timberwolf": "Orman Kurdu",
+		"roseQuartz": "Gül Kuvars",
+		"khaki": "Haki"
+	},
 	"credits": {
 		"made-by": "<l>Gabriel Chantayan</l> tarafından yapılmıştır"
 	},

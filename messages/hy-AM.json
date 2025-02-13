@@ -74,7 +74,32 @@
 		"real estate": "Անշարժ գույք",
 		"transportation": "Տրանսպորտ"
 	},
-
+	"themes": {
+		"blackboard": "Տախտակ",
+		"gazette": "Թերթ",
+		"latte": "Լատտե",
+		"armCoffee": "Հայկական սուրճ",
+		"cab": "Տաքսի",
+		"cloud": "Ամպ",
+		"lime": "Կիտրոն",
+		"white": "Սպիտակ",
+		"black": "Սև",
+		"tron": "Տրոն",
+		"blues": "Կապույտներ",
+		"passion": "Կիրք",
+		"chalk": "Կավիճ",
+		"paper": "Թուղթ",
+		"neon": "Նեոն",
+		"pumpkin": "Դդում",
+		"onedark": "ՄեկՄութ",
+		"mint": "Անանուխ",
+		"vampire": "Վամպիր",
+		"forest": "Անտառ",
+		"plum": "Սալոր",
+		"timberwolf": "Անտառային գայլ",
+		"roseQuartz": "Վարդագույն քվարց",
+		"khaki": "Խակի"
+	},
 	"credits": {
 		"made-by": "Պատրաստված է <l>Գաբրիել Չանտայանի</l>"
 	},
