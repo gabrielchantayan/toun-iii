@@ -2,6 +2,7 @@
 import { useTranslations } from 'next-intl';
 import prefixes from '@/data/prefixes.json';
 import apps from '@/data/apps.json';
+import bookmarks from '@/data/bookmarks.json';
 import Fuse from 'fuse.js';
 import { AutofillInput } from './ui/autofill-input';
 
@@ -11,7 +12,7 @@ const fuseOptions = {
 	keys: ['name'],
 };
 const fuse = new Fuse(
-	apps.flatMap((app) => app.apps),
+	[...apps.flatMap((app) => app.apps), ...bookmarks.flatMap((category) => category.items)],
 	fuseOptions
 );
 
