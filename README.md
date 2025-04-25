@@ -33,3 +33,62 @@ Typing one of the following prefixes will launch a search for the rest of the st
 | `.f` | Facebook |
 | `.n` | Netflix |
 
+## Docker Deployment
+
+### Prerequisites
+- Docker installed on your system
+- Docker Compose (optional, but recommended)
+
+### Building the Docker Image
+
+```bash
+# Build the Docker image
+docker build -t toun-iii .
+
+# Run the Docker container
+docker run -p 3000:3000 \
+  -e NODE_ENV=production \
+  toun-iii
+```
+
+### Docker Compose (Recommended)
+
+Create a `docker-compose.yml` file in the project root:
+
+```yaml
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+```
+
+Then run:
+
+```bash
+docker-compose up
+```
+
+### Environment Variables
+
+You can pass environment variables to customize the deployment:
+
+```bash
+docker run -p 3000:3000 \
+  -e NODE_ENV=production \
+  -e NEXT_PUBLIC_SOME_VAR=value \
+  toun-iii
+```
+
+### Accessing the Application
+
+After starting the container, access the application at:
+- http://localhost:3000
+
+### Notes
+- The Docker image is optimized for production deployment
+- Runs as a non-root user for enhanced security
+- Uses multi-stage build to minimize image size

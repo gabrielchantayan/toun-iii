@@ -3,9 +3,9 @@ import { useTranslations } from 'next-intl';
 import {underline} from '@/components/reuse-styles';
 
 const SettingsModalFooter = () => {
-	const t = useTranslations('credits');
+	const t = useTranslations();
 
-    const l = t.markup('made-by', {
+    const l = t.markup('credits.made-by', {
 		l: (chunks) => `<a href="https://gabrielchantayan.com" class="${underline}" target="_blank">${chunks}</a>`,
 	});
 
@@ -18,7 +18,9 @@ const SettingsModalFooter = () => {
 					<Icon icon='mdi:github' width={24} height={24} /> <p>Github</p>
 				</a>
 				<p>•</p>
-			<p className='' dangerouslySetInnerHTML={{ __html: l }} />
+				<p className='' dangerouslySetInnerHTML={{ __html: l }} />
+				<p>•</p>
+				<a href='/admin' className={underline}>{t('admin.admin-settings')}</a>
 			</div>
 		</div>
 	);

@@ -15,21 +15,21 @@ import themes from '../data/themes.json';
  * color of the theme.
  */
 export const initialize_theme = () => {
-	
-
 	// Check if theme is set in local storage
-	if (localStorage.getItem('--color-primary')) {
+	const theme = localStorage.getItem('--color-primary');
+	if (theme) {
 		// Apply the theme from local storage
-		for (const [key, color] of Object.entries(localStorage)) {
-			if (!key.includes('color-')) continue;
-			document.documentElement.style.setProperty(key, color as string);
-		}
+		document.documentElement.style.cssText = Object.entries(localStorage)
+			.filter(([key]) => key.includes('color-'))
+			.map(([key, value]) => `${key}: ${value}`)
+			.join('; ');
 	}
 
 	// If theme is not set in local storage, set default theme
 	else {
 		apply_theme_by_name('blackboard');
 	}
+
 }
 
 /**

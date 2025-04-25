@@ -22,11 +22,21 @@ const Greet = () => {
 	 * - weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 	 *   This will format the date as: "Wednesday, 15 June 2022"
 	 */
-	const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+	const options: Intl.DateTimeFormatOptions = {
+		weekday: 'long',
+		year: 'numeric',
+		month: 'long',
+		day: 'numeric',
+	};
+	/**
+	 * Create a date formatter
+	 */
+	const formatter = new Intl.DateTimeFormat(locale, options);
+
 	/**
 	 * Format the date according to the locale and options
 	 */
-	const today = date.toLocaleDateString(locale, options);
+	const today = formatter.format(date);
 
 	/**
 	 * Get current time in hours
